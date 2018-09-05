@@ -4,7 +4,7 @@ var express = require("express");
 var app = express();
 
 app.get("/", function (req, res){
-	res.render("index.ejs");
+	res.render("views/index.ejs");
 });
 
 app.listen(PORT, () => console.log(`Listening on ${ PORT }`));
