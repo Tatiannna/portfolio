@@ -4,7 +4,7 @@
   "description": "Portfolio Site",
   "main": "index.js",
   "scripts": {
-    "start": "index.html" 
+    "start": "node index.html" 
   },
   "author": "Tatianna Robinson",
   "license": "ISC"
